@@ -1,0 +1,71 @@
+.contenedor-abuelo{
+    display: flex;
+    background-color:gray;
+    height: 700px;
+    width: 700px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.contenedor-padre{
+    display: flex;
+    background-color: gray;
+    flex-direction: column;
+    height: 700px;
+    width: 230px;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.contenedor-hijo1{
+    display: flex;
+    background-color: mediumblue;
+    height: 25%;
+    width: 75%; 
+
+}
+.contenedor-hijo2{
+    display: flex;
+    background-color: chartreuse;
+    height: 25%;
+    width: 75%;
+
+}
+.contenedor-padre2{
+    display: flex;
+    background-color: gray;
+    height: 700px;
+    width: 230px;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-hijo3{
+    background-color: maroon;
+    display: flex;
+    height: 25%;
+    width: 75%;
+  
+}
+
+.contenedor-padre3{
+    display: flex;
+    background-color:gray;
+    flex-direction: column;
+    height: 700px;
+    width: 236px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.contenedor-hijo4{
+    display: flex;
+    height: 25%;
+    width: 75%;
+    background-color: darkorange;
+}
+
+.contenedor-hijo5{
+    display: flex;
+    background-color: darkturquoise;
+    height: 25%;
+    width: 75%;
+    
+}
